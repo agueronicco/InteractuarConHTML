@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1 id="encabezado">¿Que es el DOM?</h1>
+
+    <div id="concepto">
+        El modelo de objeto de documento <strong>(DOM)</strong> es una interfaz de programacion para los documentos HTML Y XML. Facilita una representacion estructurada del documento y define de que manera los programas pueden acceder, al fin de modificar, tanto su estructura, 
+        estilo y contenido. El DOM da una representacion del documento como un grupo de nodos y objetos estructurados que tienen propiedades y metodos. Esencialmente, conecta las paginas web a scripts o lenguajes de programacion.
+    </div>
+
+    <p name="caracteristicas">
+        Una pagina web es un documento. Este documento puede exhibirse en la ventana de un navegador o tambien como codigo fuente HTML. Pero, en los dos casos, es el mismo documento. El modelo de objeto de documento (DOM) proporciona otras formas de presentar, 
+        guardar y manipular este mismo documento. El DOM es una representacion completamente orientada al objetivo de la pagina web y puede ser modificado con un lenguaje de script como JavaScript.
+    </p>
+
+    <div id="datos"></div>
+
+    <form>
+Nombre: <input type="text" id="nombre" />
+    <br>
+    ¿Sabes programar?
+    SI <input type="radio" id="rsi" name="programar" value="SI" />
+    NO <input type="radio" id="rno" name="programar" value="NO" />
+    <br>
+    Marcar si eres estudiante: <input type="checkbox" id="estudiante" value="SI" />
+    <br />
+    <button type="button" onclick="valida()">Validar</button>
+    <button type="button" oncanplay="limpiar()">Limpiar</button>
+    </form>
+
+<script src="dom.js"></script>
+
+</body>
+
+</html>
